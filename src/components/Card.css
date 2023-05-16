@@ -1,0 +1,29 @@
+.card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+}
+
+.missionname {
+    color: rgb(107, 107, 215);
+}
+
+.mission-info {
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+}
+
+.mission-image {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Add any additional styling as per your requirements */

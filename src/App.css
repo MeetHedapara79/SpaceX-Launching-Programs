@@ -1,0 +1,240 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+.container {
+  display: flex;
+  background-color: #f2f2f2;
+}
+.filcon {
+  width: 12%;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+.filter-navigator {
+  width: 76%;
+  padding: 20px;
+  padding-right: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-section {
+  margin-bottom: 20px;
+}
+
+.year-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.year-buttons button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #e2ffbc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.year-buttons button:hover {
+  background-color: #96f913;
+}
+.year-buttons button:focus {
+  background-color: rgb(0, 189, 0);
+}
+
+.boolean-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.boolean-buttons button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #e2ffbc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.boolean-buttons button:hover {
+  background-color: #96f913;
+}
+
+.boolean-buttons button:focus {
+    background-color: rgb(0, 189, 0);;
+  }
+
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  background-color: #f2f2f2;
+}
+
+.card h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card p {
+  margin-bottom: 5px;
+}
+.filh{
+    text-align: center;
+    font-size: 18px;
+}
+
+.dname{
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .filcon {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .card-container {
+    display: block;
+    padding: 10px;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+  }
+  .filcon {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 1024px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f2f2f2;
+    }
+  .container {
+    display: flex;
+    background-color: #f2f2f2;
+  }
+  .filcon {
+    width: 58%;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  .filter-navigator {
+    width: 76%;
+    padding: 20px;
+    padding-right: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .filter-section {
+    margin-bottom: 20px;
+  }
+
+  .year-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .year-buttons button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #e2ffbc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .year-buttons button:hover {
+    background-color: #96f913;
+  }
+  
+  .boolean-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .boolean-buttons button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #e2ffbc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .boolean-buttons button:hover {
+    background-color: #96f913;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .card h3 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .card p {
+    margin-bottom: 5px;
+  }
+}
